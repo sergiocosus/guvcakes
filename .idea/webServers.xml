@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8dff04c9-eeda-4d23-98a2-8797a93699a9" name="calvillo.com.xm" url="http://calvillo.com.mx">
+        <fileTransfer host="ftp.calvillo.com.mx" port="21" username="u899649304.doncheco">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

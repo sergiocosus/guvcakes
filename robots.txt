@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /Controladores/
+Disallow: /MVC/
+Disallow: /Modelos/
+
+Disallow: /Vistas/
+
+

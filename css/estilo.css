@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/07/2014, 10:39:39 PM
+    Author     : sergio
+*/
+
+html{
+   height: 100%;
+
+   
+}
+
+body{
+ 
+    background-color: black;
+    background-image: url("../imagenes/ondas.jpg") ;
+    background-repeat:no-repeat;
+    background-position:  center center ;
+        background-size: 100%;
+
+    background-attachment:  fixed;
+    margin:0px;
+    text-align: center;
+    font-family: Arial;
+}
+a{
+    color:buttonface;
+}
+
+header{
+    text-align: center;
+    width:100%;
+}
+
+header > div{
+    position:relative;
+    display:inline-block;
+    height: 50px;
+    max-width:1000px;
+    width:100%;
+    font-size:xx-large;
+    background-color: rgb(10,10,10);
+    color:rgb(0,204,255);
+    z-index: 2;
+}
+#top {
+    background-image: url("../imagenes/top.jpg") ;
+    background-size: 100%;
+    
+}
+#top h1{
+    position:absolute;
+   top:0px;
+   left:0px;
+   right:0px;
+     width:320px;
+    margin:auto;
+    font-size: xx-large;
+    color:white;
+    text-shadow: 3px 3px 3px black;
+    font-family: Arial;
+    background-color: rgba(40,150,200,.7);
+    border-radius: 10px;
+}
+
+
+
+header nav{
+    position:relative;
+    display:inline-block;
+    color:white;
+    max-width: 1000px;
+    background-color:rgba(0,204,255,.2);
+    z-index: 1;
+}
+
+header nav ul{
+    margin:0px;
+    padding: 0px;
+}
+
+header nav li{
+    font-size:larger;
+    font-weight: bold;
+    font-family: Arial;
+    padding:2px;
+    display:inline-block;
+    padding-left:5px;
+    padding-top:10px;
+     margin:0px;
+    margin-top:-16px;
+    background-color:rgb(0,174,255);
+   
+    border:white solid thin;
+    border-top:none;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    transition:all .3s;
+}
+header nav ul a{
+    color:white;
+    
+}
+header nav li:hover{
+    background-color:rgb(0,40,80);
+   // color:rgb(0,104,255);
+    transform: translate(0px,10px);
+    //border:transparent solid thin;
+}
+
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    background-color: rgba(100,100,100,.7);
+    overflow: visible;
+    min-width: 220px;
+    width:220px;
+    height: 75px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    z-index: 10;
+}
+
+#play{
+    float:left;
+    margin-top:5px;
+    width:60px;
+    transition:all 0.2s;
+}
+
+#play:hover{
+    transform: scale(1.5,1.5);
+}
+
+#volume{
+    float:left;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    box-shadow: 0px 0px 15px #00a1ff;
+    color:red;
+    width: 55px;
+
+    border-radius: 10px;
+  
+    height:7px;
+    transform:rotate(90deg);
+    -webkit-transform: rotate(-90deg);
+    margin-top:33px;
+    margin-right:-10px;
+    transition:all 0.2s;
+   
+}
+#volume:hover{
+    transform: scale(1.5,1.5) rotate(-90deg);
+    -webkit-transform: scale(1.5,1.5) rotate(-90deg);
+}
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:white;
+    height:15px;
+    width:10px;
+    border-radius: 50%;
+    border: #00a1ff thin inset;
+}
+
+#like{
+    float:right;
+    margin: 10px;
+    margin-right:25px;
+}
+
+
+#contenido{
+    display:inline-block;
+    max-width:1000px;
+    width:95%;
+    background-color:rgba(70,70,70,.7);
+    border-radius: 50px;
+    color:white;
+    border: gray thin solid;
+    margin-bottom:100px;
+}
+
+.camera_fakehover{
+    border-radius:30px;
+    border: #00a1ff 2px solid;
+
+    overflow: hidden;
+}
+
+#contenedorGaleria{
+    margin:2%;
+    
+}
+
+
+
+input:focus.textarea{
+	outline-offset: -2px;
+	outline: 0;
+	color: #333;
+	border-color: #56b4ef;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+}
+input,textarea{
+    font-family: Arial,sans-serif;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);
+    -webkit-transition: .2s linear background;
+    -moz-transition: .2s linear background;
+    transition: .2s linear background;
+    border-radius: 5px;
+}
+
+input{
+    width:80%
+}
+textarea{
+    width:90%;
+}
+
+input[type="submit"]{
+    max-width: 200px;
+}
+form{
+    display:inline-block;
+    width:90%;
+    max-width:800px; 
+    background-color:rgba(100,100,100,.5);
+    margin:20px;
+    border-radius: 10px;
+    padding:5px;
+}
+
+h2{
+    font-family:Arial;
+    margin:10px;
+}
+
+#likebox{
+    background-color: rgba(200,200,200,.7);
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    margin:5px;
+}
