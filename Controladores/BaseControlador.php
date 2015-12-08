@@ -8,7 +8,7 @@ abstract class BaseControlador {
     public  $modelo;
     public  $modeloCat;
     public  $imageDir;
-    public $serverPath='/home/u899649304/public_html';
+    public $serverPath='/var/www/html/calvillo.com.mx';
     protected function vistaArbol(){
         include_once "Modelos/$this->modelo.php";
         include_once "Modelos/$this->modeloCat.php";

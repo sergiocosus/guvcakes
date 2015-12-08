@@ -1,33 +1,27 @@
 <nav id="menuArriba" >
     <ul>
-        <li>
-           <a style="background-color: rgb(150,80,00);" href="../" >
-               <img src="/imagenes/index/volver.png"/>
-               <span>Volver</span>
-           </a>
-        </li><li>
-            <a href="<?php echo $path; ?>/" >
-                <img src="/imagenes/index/principal.png"/>
+       <li>
+            <a href="/" >
                 <span>Principal</span>
             </a>
         </li><li>
-            <a href="<?php echo $path; ?>/Localidad/Ver/" >
-                <img src="/imagenes/index/localidad.png"/>
-                <span>Localidades</span>
+            <a href="/Foto/Ver/Galera-de-fotos/">
+                <span>Galería</span>
             </a>
         </li><li>
-            <a href="<?php echo $path; ?>/Directorio/Ver/">
-                <img src="/imagenes/index/directorio.png"/>
-                <span>Directorio</span>
+            <a href="/Descripcion/Ver/">
+                <span>Descripción</span>
             </a>
         </li><li>
-            <a href="<?php echo $path; ?>/Foto/Ver/">
-                <img src="/imagenes/index/fotografias.png"/>
-                <span>Fotografías</span>
+            <a href="/Videos/Ver/">
+                <span>Galería</span>
             </a>
         </li><li>
-            <a href="<?php echo $path; ?>/Contacto/Ver/">
-                <img src="/imagenes/index/contacto.png"/>
+            <a href="/Foto/Ver/Carteles">
+                <span>Carteles</span>
+            </a>
+        </li><li>
+            <a href="/Contacto/Ver/">
                 <span>Contacto</span>
             </a>
         </li>
