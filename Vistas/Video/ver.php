@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <?php
             global $path,$path;
-            $seccion='Fotos';
+            $seccion='Videos';
             include_once 'MVC/headTags.php';
         ?>
         <link type="text/css" rel="stylesheet" href="<?php echo $path; ?>/css/vista.min.css"/>
@@ -23,7 +23,7 @@
                     <div id="flechaMiniAnterior">
                         <img src="<?php echo $path; ?>/imagenes/flecha.png" class="rot180"/>
                     </div>
-                    <nav id="listaMiniFotos"></nav>
+                    <nav id="listaMiniVideos"></nav>
                     <div id="flechaMiniSiguiente">
                         <img src="<?php echo $path; ?>/imagenes/flecha.png" class="opacity" />
                     </div>
@@ -35,19 +35,19 @@
                     }elseif($categoria!==null){
                         echo $categoria->titulo;
                     }else{
-                        echo 'Fotografías del Sitio';
+                        echo 'Videografías del Sitio';
                     }
                     ?>
                 </h1>
-                <?php if(!$videos) { ?>
-                <div id="fotoGrande" if()>
+                <?php if(!$videos){ ?>
+                <div id="fotoGrande">
                     <div id="flechaAnterior" class="opacity">
                         <img src="<?php echo $path; ?>/imagenes/flecha.png" class="rot180" />
                     </div>
                     <div id="flechaSiguiente" class="opacity" >
                         <img src="<?php echo $path; ?>/imagenes/flecha.png" />
                     </div>
-                    <img <?php if($elemento!=null) {echo 'src="',$path,'/imagenes/Foto/'.$elemento->id.".".$elemento->formato.'"';} ?>/>
+                    <img <?php if($elemento!=null) {echo 'src="',$path,'/imagenes/Video/'.$elemento->id.".".$elemento->formato.'"';} ?>/>
                     <div id="cargando" >
                         <img src="<?php echo $path; ?>/imagenes/cargando.gif"/>
                     </div>
@@ -56,7 +56,7 @@
                         <?php if($elemento!=null) {echo $elemento->fechaTomada;} ?>
                     </date>
                 </div>
-                <?php } ?>
+                <?php endif ?>
                 <nav id="listaMiniaturas">
                 </nav>
 
@@ -67,7 +67,7 @@
                         }elseif($categoria!==null){
                             echo $categoria->descripcion;
                         }else{
-                            echo 'Fotografías del Sitio';
+                            echo 'Videografías del Sitio';
                         }
                     ?>
                 </article>
@@ -97,16 +97,16 @@
         <script type="text/javascript" src="<?php echo $path; ?>/library/jquery-1.10.2.min.js"></script>
         <script src="<?php echo $path; ?>/library/jquery.mobile.custom.min.js"></script>
         <script src="<?php echo $path; ?>/Scripts/fotoScript.min.js"></script>
-        <script src="<?php echo $path; ?>/Scripts/galeriaFotos.min.js"></script>
+        <script src="<?php echo $path; ?>/Scripts/galeriaVideos.min.js"></script>
         <script>
             var categorias= <?php Categoria::codificarArreglo($categorias); ?>;
-            var elementos=<?php Foto::codificarArreglo($elementos); ?>;
-            var elemento=<?php  if($elemento!=null)Foto::codificar($elemento); else echo 'null'; ?>;
+            var elementos=<?php Video::codificarArreglo($elementos); ?>;
+            var elemento=<?php  if($elemento!=null)Video::codificar($elemento); else echo 'null'; ?>;
             var categoria=<?php  if($categoria!=null)Categoria::codificar($categoria); else echo 'null'; ?>;    
             
             imgDir=path+"/imagenes/";
         
-            var galeria=new GaleriaDeFotos();
+            var galeria=new GaleriaDeVideos();
             galeria.inicializar();
             inicializarSocial(false);
             $(window).on('resize',function(){

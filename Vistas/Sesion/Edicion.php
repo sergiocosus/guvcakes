@@ -97,6 +97,12 @@
                     <a href="../Categoria/Editar" >Editar sección <b>Categorias de Fotos</b></a>
                 </li>
                 <li>
+                    <a href="../Video/Editar" >Editar sección <b>Video</b></a>
+                </li>
+                <li>
+                    <a href="../VideoCategoria/Editar" >Editar sección <b>Categorias de Videos</b></a>
+                </li>
+
                 <!--    <a href="../Directorio/Editar" >Editar sección <b>Directorio</b></a>
                 </li>
                 <li>

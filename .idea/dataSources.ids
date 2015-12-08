@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - guvcakes@localhost" uuid="0d1fa196-7754-4dbb-8bd9-0bc91958ae2d">
+    <database-info product="MySQL" version="5.6.27-0ubuntu1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="guvcakes"/>
+      <table id="2" parent="1" name="categorias"/>
+      <table id="3" parent="1" name="directorio"/>
+      <table id="4" parent="1" name="directoriocat"/>
+      <table id="5" parent="1" name="fotos"/>
+      <table id="6" parent="1" name="localidadcat"/>
+      <table id="7" parent="1" name="localidades"/>
+      <table id="8" parent="1" name="sitiosweb"/>
+      <table id="9" parent="1" name="sitioswebcat"/>
+      <table id="10" parent="1" name="videos"/>
+      <table id="11" parent="1" name="video_categorias"/>
+      <column id="12" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="13" parent="2" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="14" parent="2" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="15" parent="2" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="16" parent="2" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="17" parent="2" name="catId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="18" parent="2" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="19" parent="2" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="20" parent="2" name="contiene">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="21" parent="2" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="22" parent="2" name="id">
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="23" parent="2" name="link">
+        <columns>link</columns>
+        <unique>1</unique>
+      </index>
+      <key id="24" parent="2" name="id">
+        <columns>id</columns>
+        <underlying-index>id</underlying-index>
+      </key>
+      <key id="25" parent="2" name="link">
+        <columns>link</columns>
+        <underlying-index>link</underlying-index>
+      </key>
+      <key id="26" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="27" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="28" parent="3" name="titulo">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="29" parent="3" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="30" parent="3" name="formato">
+        <mandatory>1</mandatory>
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="31" parent="3" name="catId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="32" parent="3" name="prioridad">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="33" parent="3" name="direccion">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="34" parent="3" name="telefono">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="35" parent="3" name="celular">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="36" parent="3" name="email">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="37" parent="3" name="website">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="38" parent="3" name="facebook">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="39" parent="3" name="youtube">
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="40" parent="3" name="latitud">
+        <data-type>double</data-type>
+      </column>
+      <column id="41" parent="3" name="longitud">
+        <data-type>double</data-type>
+      </column>
+      <column id="42" parent="3" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="43" parent="3" name="id">
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <key id="44" parent="3" name="id">
+        <columns>id</columns>
+        <underlying-index>id</underlying-index>
+      </key>
+      <key id="45" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="46" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="47" parent="4" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="48" parent="4" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="49" parent="4" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="50" parent="4" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="51" parent="4" name="catId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="52" parent="4" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="53" parent="4" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="54" parent="4" name="contiene">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="55" parent="4" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="56" parent="4" name="id">
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="57" parent="4" name="link">
+        <columns>link</columns>
+        <unique>1</unique>
+      </index>
+      <key id="58" parent="4" name="id">
+        <columns>id</columns>
+        <underlying-index>id</underlying-index>
+      </key>
+      <key id="59" parent="4" name="link">
+        <columns>link</columns>
+        <underlying-index>link</underlying-index>
+      </key>
+      <key id="60" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="61" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="62" parent="5" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="63" parent="5" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="64" parent="5" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="65" parent="5" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="66" parent="5" name="catID">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="67" parent="5" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="68" parent="5" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="69" parent="5" name="fechaTomada">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="70" parent="5" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="71" parent="5" name="id">
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="72" parent="5" name="link">
+        <columns>link</columns>
+        <unique>1</unique>
+      </index>
+      <key id="73" parent="5" name="id">
+        <columns>id</columns>
+        <underlying-index>id</underlying-index>
+      </key>
+      <key id="74" parent="5" name="link">
+        <columns>link</columns>
+        <underlying-index>link</underlying-index>
+      </key>
+      <key id="75" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="76" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="77" parent="6" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="78" parent="6" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="79" parent="6" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="80" parent="6" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="81" parent="6" name="catId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="82" parent="6" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="83" parent="6" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="84" parent="6" name="contiene">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="85" parent="6" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="86" parent="6" name="id">
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="87" parent="6" name="link">
+        <columns>link</columns>
+        <unique>1</unique>
+      </index>
+      <key id="88" parent="6" name="id">
+        <columns>id</columns>
+        <underlying-index>id</underlying-index>
+      </key>
+      <key id="89" parent="6" name="link">
+        <columns>link</columns>
+        <underlying-index>link</underlying-index>
+      </key>
+      <key id="90" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="91" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="92" parent="7" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="93" parent="7" name="titulo">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="94" parent="7" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="95" parent="7" name="formato">
+        <mandatory>1</mandatory>
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="96" parent="7" name="catId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="97" parent="7" name="prioridad">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="98" parent="7" name="etiqueta">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="99" parent="7" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="100" parent="7" name="id">
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="101" parent="7" name="link">
+        <columns>link</columns>
+        <unique>1</unique>
+      </index>
+      <key id="102" parent="7" name="id">
+        <columns>id</columns>
+        <underlying-index>id</underlying-index>
+      </key>
+      <key id="103" parent="7" name="link">
+        <columns>link</columns>
+        <underlying-index>link</underlying-index>
+      </key>
+      <key id="104" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="105" parent="8" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="106" parent="8" name="titulo">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="107" parent="8" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="108" parent="8" name="formato">
+        <mandatory>1</mandatory>
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="109" parent="8" name="catId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="110" parent="8" name="prioridad">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="111" parent="8" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="112" parent="8" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="113" parent="8" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="114" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="115" parent="9" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="116" parent="9" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="117" parent="9" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="118" parent="9" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="119" parent="9" name="catId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="120" parent="9" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="121" parent="9" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="122" parent="9" name="contiene">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="123" parent="9" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="124" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="125" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="126" parent="10" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="127" parent="10" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="128" parent="10" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="129" parent="10" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="130" parent="10" name="catID">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="131" parent="10" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="132" parent="10" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="133" parent="10" name="fechaTomada">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="134" parent="10" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="135" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="136" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="137" parent="11" name="link">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="138" parent="11" name="titulo">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="139" parent="11" name="descripcion">
+        <data-type>text</data-type>
+      </column>
+      <column id="140" parent="11" name="formato">
+        <data-type>char(3)</data-type>
+      </column>
+      <column id="141" parent="11" name="catId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="142" parent="11" name="prioridad">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="143" parent="11" name="fechaSubida">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="144" parent="11" name="contiene">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="145" parent="11" name="visible">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="146" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

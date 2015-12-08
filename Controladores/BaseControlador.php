@@ -19,7 +19,14 @@ abstract class BaseControlador {
         global $urlArray,$urlArray;
         $urlCount=count($urlArray);
         $ultimo=$urlArray[$urlCount-1];
-        
+
+        $videos = false;
+        foreach($urlArray as $url){
+            if($url == "Videos"){
+                $videos = true;
+            }
+        }
+
         $categorias=$modeloCat::obtenerTodos('where visible=1');
       
         $elemento=$modelo::obtenerPorLink($ultimo);
