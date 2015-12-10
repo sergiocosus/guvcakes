@@ -3,7 +3,7 @@
 class SQLconexion {
     static private $db;
     static function conectar(){
-        if(self::$db = new mysqli("localhost","root","root","guvcakes")){
+        if(self::$db = new mysqli($_ENV['db_host'],$_ENV['db_user'],$_ENV['db_pass'],$_ENV['db_base'])){
             mysqli_set_charset(self::$db, "utf8");  
             return "Conexión correcta";
         }else{

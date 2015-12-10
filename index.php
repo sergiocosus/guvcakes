@@ -15,7 +15,8 @@ function sesionIniciada(){
         die('No ha iniciado sesión!');
     }
 }
-    
+
+include_once('.env.php');
 include_once("MVC/SQLconexion.php");
 SQLconexion::conectar();
 $urlArray = array();
