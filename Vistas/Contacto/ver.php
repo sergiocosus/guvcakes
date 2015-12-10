@@ -20,10 +20,10 @@ and open the template in the editor.
     <center>
         <div id="todo">
             <div class="divTexto" style="margin:20px;">
-                Puedes comunicarte con nosotros a través de nuestro correo electrónico: 
-            <a href="mailto:contacto@calvillo.com.mx">contacto@calvillo.com.mx </a>
-                o en nuestra página de <a href="https://www.facebook.com/calvillo.com.mx">facebook</a>.
-            </div>
+                Puedes comunicarte con nosotros a través de nuestro correo electrónico:
+
+                    <a href="mailto:guvcakes@gmail.com">guvcakes@gmail.com </a>
+
         </div>
     </center>
 

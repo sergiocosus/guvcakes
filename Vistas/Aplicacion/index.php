@@ -28,14 +28,7 @@
                 Guvcakes
             </div>
             <div id="galeria">
-                <?php
-                $cantidad=count($elementos);
-                for($i=0;$i<$cantidad;$i++){
-                ?><a href="/Foto/Ver<?php echo generarLink($elementos[$i]->catId,$categorias,$catCant),'/',$elementos[$i]->link;?>">
-                        <img style="width:75px; height: 75px;" src="/imagenes/Foto/<?php echo $elementos[$i]->id; ?>-thumb.<?php echo $elementos[$i]->formato;?>"
-                             title="<?php echo $elementos[$i]->titulo; ?>" />
-
-                </a><?php } ?>
+                <img src="/imagenes/bar.jpg" style="width: 100%;"/>
             </div>  
         </header>  
          <script>  
@@ -89,27 +82,12 @@
 
 
         <div class="divTexto">
-            Bienvenido a Calvillo.com.mx, página dedicada a mostrar 
-            mediante fotografías e información la diversidad del municipio de 
-            Calvillo, Aguascalientes, México.
+          Texto para cambiar
             <br>
             Si tienes alguna duda o comentario puedes contactarnos en 
-            <a href="mailto:contacto@calvillo.com.mx">contacto@calvillo.com.mx </a>
-                o en nuestra página de <a href="https://www.facebook.com/calvillo.com.mx">facebook</a>.
+            <a href="mailto:guvcakes@gmail.com">guvcakes@gmail.com </a>
         </div>
-         <div style="width:98%">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- dinámico -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-4211453260979774"
-                 data-ad-slot="2252861942"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-         <div id="social"></div>
+
    
     </div>
    
