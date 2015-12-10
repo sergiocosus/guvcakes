@@ -25,7 +25,7 @@
        
         <header id="arriba" >
             <div id="titulo">
-                Calvillo.com.mx
+                Guvcakes
             </div>
             <div id="galeria">
                 <?php
@@ -49,24 +49,20 @@
         </script>
     <div style="text-align:center">
        <nav id="circulos">
-            <!--<a class="zoom" href="/Localidad/Ver/">
-                <img src="/imagenes/index/localidades.png">
-            </a>-->
-           <!-- <a class="zoom" href="/Directorio/Ver/">
-                <img src="/imagenes/index/directorio_down.png">
-            </a>-->
 
             <a href="/Foto/Ver/Galera-de-fotos/" class="zoom">
                 <img src="/imagenes/Categoria/11.png">
+                Galeria de fotos
             </a>
             <a href="/Descripcion/Ver/" class="zoom">
-                <img src="/imagenes/Categoria/x.png">
+                <img alt="Descripción" src="/imagenes/Categoria/x.png">
+
             </a>
            <a href="/Foto/Ver/Videos/" class="zoom">
-               <img src="/imagenes/Categoria/12.png">
+               <img alt="Videos" src="/imagenes/Categoria/12.png">
            </a>
            <a href="/Foto/Ver/Carteles" class="zoom">
-               <img src="/imagenes/Categoria/13.png">
+               <img alt="Carteles" src="/imagenes/Categoria/13.png">
            </a>
            <a href="/Contacto/Ver/">
                <span>Contacto</span>
