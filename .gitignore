@@ -1,4 +1,4 @@
 imagenes/Foto/*
 imagenes/Categoria/*
 .idea
-MVC/SQLconexion.php
+.env.php
