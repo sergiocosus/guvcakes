@@ -13,8 +13,8 @@
                 <span>Descripción</span>
             </a>
         </li><li>
-            <a href="/Videos/Ver/">
-                <span>Galería</span>
+            <a href="/Foto/Ver//Videos/">
+                <span>Videos</span>
             </a>
         </li><li>
             <a href="/Foto/Ver/Carteles">

@@ -55,17 +55,21 @@
            <!-- <a class="zoom" href="/Directorio/Ver/">
                 <img src="/imagenes/index/directorio_down.png">
             </a>-->
-            <a href="/Foto/Ver/Antiguo" class="zoom">
-                <img src="/imagenes/Categoria/4.png">
+
+            <a href="/Foto/Ver/Galera-de-fotos/" class="zoom">
+                <img src="/imagenes/Categoria/11.png">
             </a>
-            <a href="/Foto/Ver/Artesanias" class="zoom">
-                <img src="/imagenes/Categoria/2.png">
+            <a href="/Descripcion/Ver/" class="zoom">
+                <img src="/imagenes/Categoria/x.png">
             </a>
-            <a href="/Foto/Ver/Ferias" class="zoom">
-                <img src="/imagenes/Categoria/3.png">
-            </a>
-           <a href="/Foto/Ver/Gastronoma" class="zoom">
-               <img src="/imagenes/Categoria/1.png">
+           <a href="/Foto/Ver/Videos/" class="zoom">
+               <img src="/imagenes/Categoria/12.png">
+           </a>
+           <a href="/Foto/Ver/Carteles" class="zoom">
+               <img src="/imagenes/Categoria/13.png">
+           </a>
+           <a href="/Contacto/Ver/">
+               <span>Contacto</span>
            </a>
            <a href="https://www.facebook.com/Guv-Cakes-1490365367935398/" class="zoom">
                <img src="/imagenes/index/faceCirculo.png">

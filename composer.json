@@ -1,0 +1,11 @@
+{
+"name": "sergio/guvcakes",
+"description": "GuvCakes",
+"authors": [
+{
+"name": "Sergio Contreras Sustaita",
+"email": "sergiocosus@gmail.com"
+}
+],
+"require": {}
+}
