@@ -60,12 +60,15 @@
            <a href="/Contacto/Ver/">
                <span>Contacto</span>
            </a>
-           <a href="https://www.facebook.com/Guv-Cakes-1490365367935398/" class="zoom">
+           <a href="https://www.facebook.com/Guv-Cakes-1490365367935398" class="zoom">
                <img src="/imagenes/index/faceCirculo.png">
            </a>
-           <a href="https://plus.google.com/+FotoscalvilloMx/posts" class="zoom">
-               <img src="/imagenes/index/google-plus.png">
+           <a href="https://www.youtube.com/channel/UCZjBMv27aiYfMXt3jTUKD7w" class="zoom">
+               <img src="/imagenes/youtube.png">
            </a>
+         <!--  <a href="https://plus.google.com/+FotoscalvilloMx/posts" class="zoom">
+               <img src="/imagenes/index/google-plus.png">
+           </a>-->
        </nav>
         
 

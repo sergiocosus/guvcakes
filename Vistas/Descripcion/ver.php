@@ -19,7 +19,10 @@ and open the template in the editor.
         ?>
     <center>
         <div id="todo">
+            <h1>Descripción</h1>
+            <img src="/imagenes/descripcion.jpg" />
             <div class="divTexto" style="margin:20px;">
+
                 Guv Cakes es un cup cake con harina sabor vainilla, en su interior esta relleno de ate de Guayaba, y en la parte superior tiene cajeta de con trozos de nuez y del mismo ate.
                     Lo que le da una característica única y especial es el ate de guayaba, fruta que ha sido cultivada en Calvillo, Aguascalientes, México; municipio que ostenta el título de “Capital Mundial de la Guayaba”, por esta razón los dulces de guayaba son una especialidad que se podrán saborear en combinación con repostería gracias al sabor único que se le añade.
                       La guayaba ha tenido una buena incursión en la repostería, pero en ates ha sido menor y se ha visto comúnmente en pasteles grandes, en cup cakes no se había manejado y dado que la consistencia es diferente, se convierte en un producto idóneo para probarse con la combinación de ate, cajeta y nuez.
