@@ -74,24 +74,8 @@
 
 
             </section>
-            <div style="width:98%">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- dinámico -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-4211453260979774"
-                     data-ad-slot="2252861942"
-                     data-ad-format="auto"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            <div id="social">
-                <div id="like"></div>
-                <div class="g-plusone" data-annotation="inline" data-width="300"></div>       
-                <div id="comentarios"></div>
-            </div>
-            <div id="recomendaciones"></div>
+
+
         </div>
             
         <script type="text/javascript" src="<?php echo $path; ?>/library/jquery-1.10.2.min.js"></script>
