@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f758794-ca8b-4284-9e93-31dbf1c5a784" name="Default" comment="">
+    <list default="true" id="5f758794-ca8b-4284-9e93-31dbf1c5a784" name="Default" comment="Added image">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/Aplicacion/index.php" afterPath="$PROJECT_DIR$/Vistas/Aplicacion/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/Contacto/ver.php" afterPath="$PROJECT_DIR$/Vistas/Contacto/ver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vistas/Descripcion/ver.php" afterPath="$PROJECT_DIR$/Vistas/Descripcion/ver.php" />
     </list>
     <ignored path="calvillo.com.mx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vistas/Aplicacion/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.703704">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="83" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.65273315">
+              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -102,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ver.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vistas/Contacto/ver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94212216">
+            <state vertical-scroll-proportion="-21.703703">
               <caret line="426" column="25" selection-start-line="426" selection-start-column="25" selection-end-line="426" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -215,8 +213,8 @@
         <option value="$PROJECT_DIR$/MVC/SQLconexion.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Vistas/Descripcion/ver.php" />
-        <option value="$PROJECT_DIR$/Vistas/Aplicacion/index.php" />
         <option value="$PROJECT_DIR$/Vistas/Contacto/ver.php" />
+        <option value="$PROJECT_DIR$/Vistas/Aplicacion/index.php" />
       </list>
     </option>
   </component>
@@ -870,17 +868,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/Aplicacion/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.703704">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="83" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/Contacto/ver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94212216">
+        <state vertical-scroll-proportion="-21.703703">
           <caret line="426" column="25" selection-start-line="426" selection-start-column="25" selection-end-line="426" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -899,6 +889,14 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#font#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vistas/Aplicacion/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65273315">
+          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

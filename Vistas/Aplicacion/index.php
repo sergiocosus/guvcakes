@@ -76,8 +76,6 @@
             </div>
         </form>
 
-        <script type="text/javascript" src="http://www.google.com.mx/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
-
 
         <div class="divTexto">
             Si tienes alguna duda o comentario puedes contactarnos en 
