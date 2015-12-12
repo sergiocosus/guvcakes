@@ -44,28 +44,23 @@
        <nav id="circulos">
 
             <a href="/Foto/Ver/Galera-de-fotos/" class="zoom">
-                <img src="/imagenes/Categoria/11.png">
-                Galeria de fotos
+                <img src="/imagenes/ima.jpg">
+
             </a>
             <a href="/Descripcion/Ver/" class="zoom">
-                <img alt="Descripción" src="/imagenes/Categoria/x.png">
+                <img alt="Descripción" src="/imagenes/des.jpg">
 
             </a>
            <a href="/Foto/Ver/Videos/" class="zoom">
-               <img alt="Videos" src="/imagenes/Categoria/12.png">
+               <img alt="Videos" src="/imagenes/vid.jpg">
            </a>
            <a href="/Foto/Ver/Carteles" class="zoom">
-               <img alt="Carteles" src="/imagenes/Categoria/13.png">
+               <img alt="Carteles" src="/imagenes/car.jpg">
            </a>
-           <a href="/Contacto/Ver/">
-               <span>Contacto</span>
+           <a href="/Contacto/Ver/" class="zoom">
+               <img alt="Carteles" src="/imagenes/con.jpg">
            </a>
-           <a href="https://www.facebook.com/Guv-Cakes-1490365367935398" class="zoom">
-               <img src="/imagenes/index/faceCirculo.png">
-           </a>
-           <a href="https://www.youtube.com/channel/UCZjBMv27aiYfMXt3jTUKD7w" class="zoom">
-               <img src="/imagenes/youtube.png">
-           </a>
+
          <!--  <a href="https://plus.google.com/+FotoscalvilloMx/posts" class="zoom">
                <img src="/imagenes/index/google-plus.png">
            </a>-->
@@ -85,8 +80,6 @@
 
 
         <div class="divTexto">
-          Texto para cambiar
-            <br>
             Si tienes alguna duda o comentario puedes contactarnos en 
             <a href="mailto:guvcakes@gmail.com">guvcakes@gmail.com </a>
         </div>
